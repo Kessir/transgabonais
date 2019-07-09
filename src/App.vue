@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <section class="container">
-      <h2>Horaires et tarifs du Transgabonais</h2>
+      <h2>Horaires et Tarifs du Transgabonais</h2>
 
       <div>
         <span> <h3>Owendo - Franceville</h3></span>
