@@ -1,0 +1,9 @@
+[
+    {"from": "Owendo", "to": "Njolé", "days": ["Lundi", "Mercredi", "Vendredi"], "vipClass":18400, "firstClass":16150, "secondClass":12100},
+    {"from": "Owendo", "to": "Lopé", "days": ["Lundi", "Mercredi", "Vendredi"], "vipClass":29400, "firstClass":25700, "secondClass":19200},
+    {"from": "Owendo", "to": "Booué", "days": ["Lundi", "Mercredi", "Vendredi"], "vipClass":34400, "firstClass":30200, "secondClass":22500},
+    {"from": "Owendo", "to": "Ivindo", "days": ["Lundi", "Mercredi", "Vendredi"], "vipClass":37400, "firstClass":32800, "secondClass":24500},
+    {"from": "Owendo", "to": "Lastoursville", "days": ["Lundi", "Mercredi", "Vendredi"], "vipClass":48300, "firstClass":42400, "secondClass":31700},
+    {"from": "Owendo", "to": "Moanda", "days": ["Lundi", "Mercredi", "Vendredi"], "vipClass":60300, "firstClass":52800, "secondClass":39500},
+    {"from": "Owendo", "to": "Franceville", "days": ["Lundi", "Mercredi", "Vendredi"], "vipClass":64300, "firstClass":56300, "secondClass":42200}
+]
