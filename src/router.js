@@ -21,7 +21,7 @@ export default new Router({
       beforeEnter(to, from, next) {
         const lang = to.params.lang;
 
-        if (!['fr', 'en'].includes(lang)) return next('fr');
+        if (!['fr', 'en'].includes(lang)) return next('');
 
         if (i18n.locale !== lang) {
           i18n.locale = lang;

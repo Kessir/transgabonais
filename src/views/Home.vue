@@ -30,7 +30,7 @@
           <label for="omnibus-train" class="mr-2"> Train Omnibus</label>
           <input type="checkbox" id="omnibus-train" v-model="omnibus">
         </div>
-        <div class="text-gray-700 max-w-md m-auto">
+        <div class="text-gray-700 max-w-md m-auto px-2">
           <input
             type="search"
             name="serch"
@@ -44,26 +44,26 @@
       <table class="mt-4 table-auto w-full">
         <thead>
           <tr class="border-b-2">
-            <th class="text-left p-3 px-5">Trajet</th>
-            <th class="text-left p-3 px-5">Train</th>
-            <th class="text-left p-3 px-5">{{ $t('days') }}</th>
-            <th class="text-left p-3 px-5">2nde Classe</th>
-            <th class="text-left p-3 px-5">1ere Classe</th>
-            <th class="text-left p-3 px-5 hidden sm:block">Classe VIP</th>
+            <th class="text-left p-2 px-2 sm:px-5">Trajet</th>
+            <th class="text-left p-2 px-2 sm:px-5">Train</th>
+            <th class="text-left p-2 px-2 sm:px-5">{{ $t('days') }}</th>
+            <th class="text-left p-2 px-2 sm:px-5">2eme Classe</th>
+            <th class="text-left p-2 px-2 sm:px-5">1ere Classe</th>
+            <th class="text-left p-2 px-4 hidden sm:table-cell">Classe VIP</th>
 
           </tr>
         </thead>
         <tbody>
           <tr class="border-b" v-for="route in filteredResults" :key="route.type+route.from+route.to">
-            <td class="text-left p-3 px-5">
+            <td class="text-left p-3 px-2 sm:px-4">
               <span class="hidden sm:block">{{route.from}} -</span>
-              <span class="font-bold sm:text-xl">{{route.to}}</span>
+              <span class="sm:font-bold sm:text-xl">{{route.to}}</span>
             </td>
-            <td class="text-left p-3 px-5">{{route.type}}</td>
-            <td class="text-left p-3 px-5">{{concatenateDays(route.days)}}</td>
-            <td class="text-left p-3 px-5">{{route.secondClass.toLocaleString('fr')}} FCFA</td>
-            <td class="text-left p-3 px-5">{{route.firstClass.toLocaleString('fr')}} FCFA</td>
-            <td class="text-left p-3 px-5 hidden sm:block">{{route.vipClass ? route.vipClass.toLocaleString('fr'): ''}} FCFA</td>
+            <td class="text-left py-2 px-2 sm:px-4">{{route.type}}</td>
+            <td class="text-left py-2 px-2 sm:px-4">{{concatenateDays(route.days)}}</td>
+            <td class="text-left py-2 px-2 sm:px-4">{{route.secondClass.toLocaleString('fr')}} FCFA</td>
+            <td class="text-left py-2 px-2 sm:px-4">{{route.firstClass.toLocaleString('fr')}} FCFA</td>
+            <td class="text-left py-2 px-4 hidden sm:table-cell"> {{route.vipClass ? route.vipClass.toLocaleString('fr') + ' FCFA': ' - '}} </td>
           </tr>
         </tbody>
       </table>
