@@ -6,7 +6,7 @@
     </div>
     <router-view />
     <footer>
-      <div class="text-center my-4 py-4">
+      <div class="text-center mt-4 py-4">
         <a
           href="https://github.com/Kessir/transgabonais"
           target="_blank"
