@@ -13,7 +13,7 @@
           rel="noopener noreferrer"
           class="flex justify-center flex-shrink text-gray-600"
         >
-        <div class="inline-block h-6 mr-2 ">
+        <div class="inline-block h-6 w-6 mr-2">
           <svg height="100%" width="100%" viewBox="0 0 291.32 291.32">
             <path
               style="fill:#718096;"
