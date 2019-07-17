@@ -36,7 +36,7 @@
             name="serch"
             placeholder="Destination"
             v-model="searchQuery"
-            class="bg-white h-10 px-5 pr-10 rounded-full text-sm focus:outline-none w-full"
+            class="bg-white h-10 px-5 pr-10 rounded-full text-sm focus:outline-none w-full border"
           />
         </div>
       </form>
